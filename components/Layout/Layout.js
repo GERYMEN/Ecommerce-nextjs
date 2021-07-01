@@ -8,7 +8,7 @@ import {useEffect,useState} from "react"
 const Layout = ({ children, title = "World Ranks" }) => {
 
   return (
-    <div className={styles.container}>
+    <div  className={styles.container}>
       <Navbar/>
       <header className={styles.header}>
         {/* <Link href="/">
@@ -35,7 +35,7 @@ const Layout = ({ children, title = "World Ranks" }) => {
 
       <main className={styles.main}>{children}</main>
       <footer className={styles.footer}>development by @$#</footer>
-    </div>
+    </div >
   );
 };
 

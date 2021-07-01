@@ -4,10 +4,10 @@ import styles from "./SearchInput.module.css";
 
 const SearchInput=()=>{
 return(
-    <div className={styles.wrapper}>
+    <div  className={styles.wrapper}>
         <input className={styles.input}/>
         <SearchRounded />
-    </div>
+    </div >
 )
 }
 
